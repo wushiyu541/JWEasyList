@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JWEasyList_Example' do
+  pod 'JWEasyList', :path => '../'
+
+  target 'JWEasyList_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
